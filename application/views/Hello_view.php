@@ -1,10 +1,10 @@
 
 
 <?php
-    echo "Who are you? </br>";
+    echo "hii! </br>";
     //echo "I,m " .$name. " your Email:" .$email; 
-    foreach($player as $ply1){
-        echo " ".$ply1."</br>";
+    foreach($data as $hel){
+        echo " ".$hel."</br>";
     }
 ?>
-<center><h1>This is Nowhere</h1></center>
+<center><h1>i am a printer</h1></center>

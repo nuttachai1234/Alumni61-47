@@ -6,7 +6,7 @@ class Hi extends CI_Controller {
 	
 	function __construct(){
 		parent::__construct();
-		echo "The Legend of tales"."</br>";
+		echo "hello world"."</br>";
 	}
 	public function index()
 	{
@@ -14,7 +14,7 @@ class Hi extends CI_Controller {
 	}
 	public function show($name,$last)
 	{
-		echo "Hi, I,m ".$name. " " .$last;
+		echo "hello world ".$name. " " .$last;
 		$this->_keepout();
 	}
 	public function _keepout()
